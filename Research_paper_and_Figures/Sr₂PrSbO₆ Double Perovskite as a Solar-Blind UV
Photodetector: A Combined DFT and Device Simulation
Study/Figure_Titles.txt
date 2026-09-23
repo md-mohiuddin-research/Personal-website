@@ -1,0 +1,120 @@
+FIGURE TITLES / CAPTIONS FOR MANUSCRIPT
+Sr2PrSbO6 Solar-Blind UV-C Photodetector (HSE06 + DEVSIM TCAD, figures v3)
+Applies to both figure sets: figures_v3_enhanced/ and figures_v3_colorful/
+==========================================================================
+
+Figure 1  (Fig_UV1_optical)
+---------------------------
+Title:
+  Optical properties of Sr2PrSbO6 computed at the HSE06 level.
+
+Full caption:
+  Optical properties of Sr2PrSbO6 computed at the HSE06 level (VASP,
+  LOPTICS). (a) Absorption coefficient alpha(lambda); the absorption edge at
+  lambda_c = 244 nm (Eg = 5.09 eV) lies inside the solar-blind UV-C band
+  (200-280 nm), and alpha = 0 for lambda > lambda_c. (b) Film absorption
+  efficiency eta_abs = (1-R)(1-exp(-alpha*d)) for film thicknesses of
+  200 nm - 5 um. (c) Refractive index n(lambda) and extinction coefficient
+  k(lambda). (d) Real (eps_1) and imaginary (eps_2) parts of the dielectric
+  function; the static value eps_1(0) = 3.47.
+
+Figure 2  (Fig_UV2_device_band)
+-------------------------------
+Title:
+  Device architecture and equilibrium band diagram of the
+  Pt/Sr2PrSbO6/Pt MSM photodetector.
+
+Full caption:
+  (a) Schematic of the metal-semiconductor-metal (MSM) photoconductor:
+  a Sr2PrSbO6 absorber (d = 200 nm - 5 um) between Pt electrodes
+  (L = 10 um, W = 100 um, A = 1e-4 cm^2) under UV-C illumination
+  (h*nu > 5.09 eV) and an applied field of 10 kV/cm at V = 10 V.
+  (b) Equilibrium band diagram (V = 0) with back-to-back Schottky
+  barriers Phi_B = 2.15 eV at the Pt contacts (HSE06: Eg = 5.09 eV,
+  eps_r = 3.47, chi = 3.5 eV).
+
+Figure 3  (Fig_UV3_IV)
+----------------------
+Title:
+  Simulated dark and illuminated current-voltage characteristics of the
+  Sr2PrSbO6 MSM photodetector.
+
+Full caption:
+  Dark and UV-illuminated (220 nm, 1 mW/cm^2) I-V characteristics from
+  DEVSIM TCAD drift-diffusion simulation at T = 300 K. The photocurrent
+  exceeds the intrinsic dark current by ~13 orders of magnitude
+  (I_ph/I_dark ~ 5e13 at 10 V), corresponding to R(220 nm) = 2.7 mA/W
+  for the 200 nm baseline device.
+
+Figure 4  (Fig_UV4_FEM_responsivity)
+------------------------------------
+Title:
+  Spatial device profiles and spectral responsivity of the Sr2PrSbO6 MSM
+  photodetector.
+
+Full caption:
+  (a) Electric-field deviation |E| - E0 (E0 = 10 kV/cm) across the
+  electrode gap in the dark and under 220 nm illumination at V = 10 V.
+  (b) Electron and hole density profiles in the dark and under
+  illumination. (c) Beer-Lambert optical generation profile through the
+  film depth at 220 nm (penetration depth 1/alpha = 0.21 um).
+  (d-f) Spectral responsivity R(lambda) as a function of (d) bias voltage
+  (5-20 V), (e) film thickness (200 nm - 5 um), and (f) carrier lifetime
+  (0.1-10 ns); the thick curve marks the baseline device (V = 10 V,
+  d = 200 nm, tau = 1 ns). Responsivity vanishes above lambda_c = 244 nm,
+  confirming intrinsic solar-blind operation.
+
+Figure 5  (Fig_UV5_performance)
+-------------------------------
+Title:
+  Simulated performance metrics of the Sr2PrSbO6 solar-blind UV-C
+  photodetector.
+
+Full caption:
+  (a) External quantum efficiency, EQE(220 nm) = 1.53% (V = 10 V,
+  d = 200 nm). (b) Specific detectivity D*(220 nm) = 1.5e9 Jones using a
+  literature dark-current density of 1e-10 A/cm^2. (c) Responsivity at key
+  wavelengths: finite response for lambda < 244 nm and zero (alpha = 0)
+  response beyond the cutoff, demonstrating full solar-blind rejection.
+  (d) Responsivity versus film thickness at 220 nm and 200 nm.
+  (e) Transient photoresponse with tau = 1 ns, giving t90 rise and fall
+  times of 2.3 ns. (f) Photocurrent linearity over five decades of
+  incident power (slope = 1.000). (g, h) Sensitivity maps of responsivity
+  and log10(D*) versus film thickness and carrier lifetime; the star
+  marks the baseline device.
+
+Figure 6  (Fig_UV6_literature)
+------------------------------
+Title:
+  Benchmarking of the predicted Sr2PrSbO6 photodetector against reported
+  solar-blind UV detectors.
+
+Full caption:
+  Responsivity at 220 nm (V = 10 V) versus band gap for reported
+  solar-blind photodetectors (beta-Ga2O3, AlGaN, MgZnO, Ga2O3 nanowires,
+  BaSnO3, diamond) and this work (stars: 5 um and 200 nm Sr2PrSbO6
+  films). The shaded region marks the solar-blind band-gap range
+  (Eg > 4.4 eV); the dashed line traces the experimental frontier.
+
+Figure 7  (Fig_UV7_summary)
+---------------------------
+Title:
+  Summary of the Sr2PrSbO6 solar-blind UV-C photodetector performance.
+
+Full caption:
+  (a) HSE06 absorption coefficient with the 244 nm solar-blind cutoff.
+  (b) Dark and illuminated I-V characteristics (DEVSIM TCAD).
+  (c) Spectral responsivity for film thicknesses of 200 nm - 5 um.
+  (d) Electric-field deviation profile at V = 10 V. (e) Specific
+  detectivity D*(lambda). (f) Transient photoresponse under a 15 ns UV
+  pulse.
+
+==========================================================================
+Notes:
+- Panels are labeled (a), (b), ... in each figure; no in-figure top
+  captions are used, so these titles/captions carry the description.
+- Replace ASCII notation with proper formatting in the manuscript:
+  Sr2PrSbO6 -> Sr2PrSbO6 (subscripts), alpha -> α, lambda_c -> λc,
+  eps -> ε, tau -> τ, Phi_B -> ΦB, um -> µm, 1e-4 -> 10^-4, etc.
+- chi = 3.5 eV is the calculated electron affinity (no "estimated"
+  qualifier).
